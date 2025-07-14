@@ -1,0 +1,7 @@
+{
+    "autodeskProduct": "fusion360",
+    "type": "addin",
+    "author": "Charlie Steenhagen",
+    "description": "Places switches in Fusion 360 based on KLE layout JSON.",
+    "version": "0.1.0"
+}

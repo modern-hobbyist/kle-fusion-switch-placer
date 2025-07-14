@@ -23,6 +23,8 @@ Ideal for keyboard designers looking to quickly populate a layout with 3D models
 
 ## 📥 Installation
 
+First, download this repository as a `zip` and extract it.
+
 ### MacOS
 
 1. **Locate your Add-Ins folder**  
@@ -30,7 +32,7 @@ Ideal for keyboard designers looking to quickly populate a layout with 3D models
    `Tools > Add-Ins > Scripts and Add-Ins > Add-Ins tab > Open Add-Ins Folder`
 
 2. **Copy the folder**  
-   Drop the `kle_switch_placer` folder (the one containing `__init__.py` and the rest) into the `AddIns` directory.
+   Drop the `kle_switch_placer` folder into the `AddIns` directory.
 
 3. **Activate the Add-In**  
    In the **Scripts and Add-Ins** dialog, find `kle_switch_placer`, select it, and click **Run** and optionally **Run on Startup**.
@@ -59,9 +61,15 @@ Ideal for keyboard designers looking to quickly populate a layout with 3D models
    > Example: [Cherry MX Key & Keycap on GrabCAD](https://grabcad.com/library/cherry-mx-series-key-keycap-1)
 
 2. Download your keyboard layout JSON from [KLE](http://www.keyboard-layout-editor.com/):  
-   - Click the **"Raw data"** tab and **copy/save** the JSON to a file (e.g., `layout.json`).
+   - Click the **Download** button and select `Download JSON`
 
 3. Open Fusion 360, and activate the **KLE Switch Placer** Add-In.
+![Enable AddIn](enable-add-in.gif)
+
+4. Run the KLE Switch Placer AddIn
+   - Go to the Utilities Tab
+   - Click the Add-Ins Dropdown
+   - Select `KLE Switch Placer` to start the Add-In
 
 4. In the KLE Switch Placer dialog:  
    - Click to select your `layout.json` file  
@@ -69,6 +77,7 @@ Ideal for keyboard designers looking to quickly populate a layout with 3D models
    - Enter your desired **horizontal** and **vertical spacing** in **millimeters**
 
 5. Click **Place** and watch your layout come to life!
+   ![Run Plugin](usage.gif)
 
 ---
 
